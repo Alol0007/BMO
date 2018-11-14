@@ -1,0 +1,158 @@
+html {
+    background-image: linear-gradient(to bottom, hsl(90, 21%, 50%), brown);
+    background-image: -webkit-linear-gradient(top, hsl(30, 50%, 50%), beige);
+    background-attachment: fixed;
+    font-size: 14px;
+    opacity: 0.8;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+body {
+    margin-bottom: 1%;
+    clear: both;
+    font-family: Sans-serif;
+    overflow: auto;
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+main {
+    min-height: 2%;
+    font-family: Sans-serif;
+    overflow: auto;
+    border-style: solid;
+    border-color: beige;
+}
+
+.site-title {
+    display: block;
+    font-size: 32px;
+    overflow: auto;
+    color: beige;
+    font-family: Sans-serif;
+    width: auto;
+    height: auto;
+}
+
+.site-slogan {
+    display: block;
+    font-family: Sans-serif;
+    overflow: auto;
+    color: beige;
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    padding: 1em;
+    padding-left: 5px;
+    font-family: Sans-serif;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.navbar a {
+    padding: 0.5em 1em;
+    background-color: beige;
+    font-family: Sans-serif;
+    width: auto;
+    height: auto;
+    overflow: auto;
+}
+
+a:link {
+    color: chocolate;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: brown;
+}
+
+.navbar .selected {
+    background-color: brown;
+}
+
+.right {
+    float: right;
+}
+
+.somediv {
+    clear: left;
+}
+
+article {
+    background-color: beige;
+    overflow: auto;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow: auto;
+    }
+}
+
+.footer1 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom, hsl(40, 60%, 80%), beige);
+}
+
+a:hover {
+    background-color: brown;
+    color: beige;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+header.site-header {
+    text-align: center;
+}
+
+.multipage {
+    overflow: auto;
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to bottom, hsl(90, 21%, 40%), black);
+    background-image: -webkit-linear-gradient(top, hsl(30, 50%, 70%), beige);
+}
+
+.multipage2 {
+    color: black;
+    background-color: beige;
+    display: inline-table;
+    padding: 0.2em 1em;
+    border: 1px solid #999;
+    font-family: Sans-serif;
+}
+
+.image {
+    display: inline;
+}
+
+div.maggiediv img {
+    border: 5px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+div.maggiediv img:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #ddd;
+}
+
+p {
+    font-size: 14px;
+}
